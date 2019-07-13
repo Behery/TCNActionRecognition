@@ -5,7 +5,7 @@ from keras.layers import Input, Dense, TimeDistributed, merge, Lambda
 from keras.layers.core import *
 from keras.layers.convolutional import *
 from keras.layers.recurrent import *
-from keras.regularizers import l2,l1l2,l1
+from keras.regularizers import l2,l1
 from keras.layers.normalization import BatchNormalization
 import tensorflow as tf
 from keras import backend as K
